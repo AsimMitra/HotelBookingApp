@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hotelbooking.SearchActivity"
+    tools:showIn="navigation_view">
+    <group  android:checkableBehavior="single">
+        <item android:id="@+id/navigationPayment"
+            android:icon="@drawable/ic_payment"
+            android:title="@string/payment"/>
+    </group>
+</menu>

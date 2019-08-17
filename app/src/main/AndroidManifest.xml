@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.hotelbooking">
+
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="HotelBooking"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".SupportActivity" />
+        <activity android:name=".Hotel8Activity" />
+        <activity android:name=".Hotel7Activity" />
+        <activity android:name=".Hotel6Activity" />
+        <activity android:name=".Hotel5Activity" />
+        <activity android:name=".Hotel4Activity" />
+        <activity android:name=".CheckinActivity" />
+        <activity android:name=".Booking" />
+        <activity android:name=".PayActivity" />
+        <activity android:name=".CardActivity" />
+        <activity android:name=".Hotel3Activity" />
+        <activity android:name=".Hotel2Activity" />
+        <activity android:name=".Hotel1Activity" />
+        <activity android:name=".FAQActivity" />
+        <activity android:name=".RatingActivity" />
+        <activity
+            android:name=".Home"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SigninActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
